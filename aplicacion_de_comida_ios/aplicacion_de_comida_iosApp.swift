@@ -13,7 +13,7 @@ struct aplicacion_de_comida_iosApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomePantallaView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
