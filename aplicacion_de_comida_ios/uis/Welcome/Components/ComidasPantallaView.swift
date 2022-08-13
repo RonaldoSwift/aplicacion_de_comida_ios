@@ -97,7 +97,6 @@ struct ComidasPantallaView: View {
     
     private func ComidaCelda(comida: Comida) -> some View {
         return ZStack{
-            
             VStack{
                 HStack{
                     Image(systemName: "circle.circle")
@@ -111,16 +110,16 @@ struct ComidasPantallaView: View {
                         Image(systemName: "heart.fill")
                             .foregroundColor(Color("ColorPlomoDeTaps"))
                     }
-                    
                 }
+                
                 Image(comida.image)
                     .resizable()
+                    .clipShape(Circle())
                 
                 Text(comida.title)
                     .font(.custom("Poppins-SemiBold", size: 12))
                     .foregroundColor(Color.black)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                
                 
                 HStack{
                     Text(comida.price)
@@ -129,7 +128,6 @@ struct ComidasPantallaView: View {
                     Image(systemName: "plus.circle.fill")
                         .foregroundColor(Color("ColorVerdeJade"))
                 }
-                
             }
             .padding()
             
@@ -155,7 +153,6 @@ struct ComidasPantallaView: View {
         .background(Color("ColorVerdeJade"))
         .cornerRadius(10)
         .padding()
-        
     }
 }
 
