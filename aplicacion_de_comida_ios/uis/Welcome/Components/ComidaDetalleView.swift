@@ -75,19 +75,8 @@ struct ComidaDetalleView: View {
                     
                 }
                 
-                HStack{
-                    Text("2 Items")
-                        .foregroundColor(Color.white)
-                        .font(.custom("Poppins-Regular", size: 14))
-                    
-                    Spacer()
-                    Text("$ 27.00")
-                        .foregroundColor(Color.white)
-                }
-                .padding()
-                .background(Color("ColorVerdeJade"))
-                .cornerRadius(10)
-                .padding()
+                ParteBaja()
+                
             }
             .padding()
         }

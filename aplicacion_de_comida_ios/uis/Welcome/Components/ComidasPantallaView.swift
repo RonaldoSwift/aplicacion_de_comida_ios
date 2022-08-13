@@ -141,19 +141,8 @@ struct ComidasPantallaView: View {
         .padding(EdgeInsets(top: 10, leading: 5, bottom: 10, trailing: 5))
     }
     
-    private func ParteBaja() -> some View {
-        return HStack{
-            Text("2 Items")
-                .foregroundColor(Color.white)
-            Spacer()
-            Text("$ 27.00")
-                .foregroundColor(Color.white)
-        }
-        .padding()
-        .background(Color("ColorVerdeJade"))
-        .cornerRadius(10)
-        .padding()
-    }
+    
+    
 }
 
 struct ComidasPantallaView_Previews: PreviewProvider {

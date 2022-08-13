@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FBB3517528A6D4E300ADDC3B /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3517428A6D4E300ADDC3B /* WelcomeViewModel.swift */; };
+		FBB3517828A747B600ADDC3B /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3517728A747B600ADDC3B /* RoundedCornersView.swift */; };
+		FBB3517B28A74AD900ADDC3B /* VistasReutilizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3517A28A74AD900ADDC3B /* VistasReutilizables.swift */; };
 		FBD0A42D28A3181F00719745 /* aplicacion_de_comida_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0A42C28A3181F00719745 /* aplicacion_de_comida_iosApp.swift */; };
 		FBD0A42F28A3181F00719745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0A42E28A3181F00719745 /* ContentView.swift */; };
 		FBD0A43128A3182500719745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD0A43028A3182500719745 /* Assets.xcassets */; };
@@ -61,6 +63,8 @@
 
 /* Begin PBXFileReference section */
 		FBB3517428A6D4E300ADDC3B /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		FBB3517728A747B600ADDC3B /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+		FBB3517A28A74AD900ADDC3B /* VistasReutilizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistasReutilizables.swift; sourceTree = "<group>"; };
 		FBD0A42928A3181F00719745 /* aplicacion_de_comida_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aplicacion_de_comida_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD0A42C28A3181F00719745 /* aplicacion_de_comida_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aplicacion_de_comida_iosApp.swift; sourceTree = "<group>"; };
 		FBD0A42E28A3181F00719745 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +128,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBB3517628A7478A00ADDC3B /* Utilitarios */ = {
+			isa = PBXGroup;
+			children = (
+				FBB3517728A747B600ADDC3B /* RoundedCornersView.swift */,
+			);
+			path = Utilitarios;
+			sourceTree = "<group>";
+		};
+		FBB3517928A74AB800ADDC3B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FBB3517A28A74AD900ADDC3B /* VistasReutilizables.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		FBD0A42028A3181F00719745 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +167,7 @@
 		FBD0A42B28A3181F00719745 /* aplicacion_de_comida_ios */ = {
 			isa = PBXGroup;
 			children = (
+				FBB3517628A7478A00ADDC3B /* Utilitarios */,
 				FBD0A48928A463B500719745 /* Domain */,
 				FBD0A48728A363FC00719745 /* aplicacion-de-comida-ios-Info.plist */,
 				FBD0A48828A3651B00719745 /* Recursos */,
@@ -189,6 +210,7 @@
 		FBD0A45B28A31E4700719745 /* uis */ = {
 			isa = PBXGroup;
 			children = (
+				FBB3517928A74AB800ADDC3B /* Common */,
 				FBD0A45C28A31E6C00719745 /* Welcome */,
 			);
 			path = uis;
@@ -416,6 +438,8 @@
 				FBD0A43628A3182500719745 /* Persistence.swift in Sources */,
 				FBD0A42F28A3181F00719745 /* ContentView.swift in Sources */,
 				FBD0A49028A5A77400719745 /* ComidaDetalleView.swift in Sources */,
+				FBB3517B28A74AD900ADDC3B /* VistasReutilizables.swift in Sources */,
+				FBB3517828A747B600ADDC3B /* RoundedCornersView.swift in Sources */,
 				FBD0A48E28A4651E00719745 /* EmojisCabezera.swift in Sources */,
 				FBD0A45F28A31EDB00719745 /* WelcomePantallaView.swift in Sources */,
 				FBD0A43928A3182500719745 /* aplicacion_de_comida_ios.xcdatamodeld in Sources */,
